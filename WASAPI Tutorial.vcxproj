@@ -127,11 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AudioClip.cpp" />
+    <ClCompile Include="AudioMixer.cpp" />
+    <ClCompile Include="AudioSource.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AudioClip.h" />
+    <ClInclude Include="AudioMixer.h" />
+    <ClInclude Include="AudioSource.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

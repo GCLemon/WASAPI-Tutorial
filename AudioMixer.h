@@ -2,6 +2,6 @@
 
 
 
-class AudioClip {
+class AudioMixer {
 };
 
